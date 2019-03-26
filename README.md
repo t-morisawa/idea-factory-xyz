@@ -1,6 +1,9 @@
 # Netlify
 https://festive-bartik-896fe7.netlify.com/
 
+# デプロイ
+masterブランチにpushすれば自動で更新されます
+
 # 開発計画
 ## V1
  - ホスティングする
