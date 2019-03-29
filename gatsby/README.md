@@ -40,3 +40,8 @@ tempates: optional
 ## memo
  - VS Codeプラグインがある
  - コンポーネントはどこに置くのか？
+
+## bootstrap
+ - npm moduleとして普通にimportしてやれば使えそう https://facebook.github.io/create-react-app/docs/adding-bootstrap
+ - React Bootstrap なるものもある https://react-bootstrap.github.io/
+ - reactstrap https://reactstrap.github.io/
