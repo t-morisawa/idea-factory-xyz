@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -17,12 +18,12 @@ export default () => {
                   <div className="p-3">アイデアを出す</div>
                   <div className="p-3">ブレインストーミング</div>
               </div>
-              <a href="./description/scamper.html">
+              <Link to="/scamper/">
               <div className="d-flex flex-row justify-content-between">
                   <div className="p-3">作ったアイデアにひねりを加える</div>
                   <div className="p-3">SCAMPER</div>
               </div>
-              </a>
+              </Link>
               <a href="./description/triz.html">
                   <div className="d-flex flex-row justify-content-between">
                       <div className="p-3">5分で発明する</div>
