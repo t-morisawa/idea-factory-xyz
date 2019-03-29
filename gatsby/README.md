@@ -45,3 +45,11 @@ tempates: optional
  - npm moduleとして普通にimportしてやれば使えそう https://facebook.github.io/create-react-app/docs/adding-bootstrap
  - React Bootstrap なるものもある https://react-bootstrap.github.io/
  - reactstrap https://reactstrap.github.io/
+
+## npm moduleはいつ入れるのか
+
+普通に入れてしまって良さそう
+
+```
+npm install --save bootstrap
+```
