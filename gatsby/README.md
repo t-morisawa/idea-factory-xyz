@@ -27,7 +27,15 @@ utils: optional
 tempates: optional
 ```
 
-CSSは各ディレクトリに置かれているのでよく分からない
+## CSS
+ - 各ディレクトリに置かれているのでよく分からない
+ - 別ファイルにCSSをかく
+ - それをJSからimportする
+ - サンプルでは生のCSSしか書かれていなかった
+
+## ページ遷移
+ - graphqlから取ってきてる
+ - そうでなければ `<Link to={'/about/'}` などでいける
 
 ## memo
  - VS Codeプラグインがある
