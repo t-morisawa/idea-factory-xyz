@@ -60,3 +60,7 @@ npm install --save bootstrap
 ## import について
 
 importの見に行くパスがよく分からない
+
+## React Componentsのインポート方法
+
+こちらもよく分からない。
