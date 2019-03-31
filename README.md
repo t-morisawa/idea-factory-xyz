@@ -1,5 +1,5 @@
 # Netlify
-https://festive-bartik-896fe7.netlify.com/
+https://epic-mayer-262a99.netlify.com/
 
 # デプロイ
 masterブランチにpushすれば自動で更新されます
