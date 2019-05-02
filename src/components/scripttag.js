@@ -2,11 +2,10 @@ import {Component} from "react";
 import React from "react";
 import {PropTypes} from "prop-types";
 
-const id = Math.random().toString();
 
 class ScriptTag extends Component {
   componentDidMount() {
-    const {src, async} = this.props;
+    const {id, src, async} = this.props;
     const script = document.createElement("script");
 
     script.src = src;
@@ -16,12 +15,14 @@ class ScriptTag extends Component {
   }
 
   render() {
+    const {id} = this.props;
     return <div id={id}/>
   }
 }
 
 ScriptTag.propTypes = {
   src: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
   async: PropTypes.bool
 };
 
