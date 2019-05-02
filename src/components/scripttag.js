@@ -12,7 +12,7 @@ class ScriptTag extends Component {
     script.src = src;
     script.async = async || false;
 
-    //document.getElementById(id).replaceWith(script)
+    document.getElementById(id).replaceWith(script);
   }
 
   render() {
