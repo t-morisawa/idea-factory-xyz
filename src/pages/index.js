@@ -10,10 +10,12 @@ export default () => {
       <div className={styles.row}>
         <div className={styles.colLg}></div>
         <div className={styles.colLg8}>
+          <Link to="/swot/">
           <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
             <div className={styles.p3}>自分に何ができるかを考える</div>
             <div className={styles.p3}>SWOT</div>
           </div>
+          </Link>
           <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
             <div className={styles.p3}>アイデアを出す</div>
             <div className={styles.p3}>ブレインストーミング</div>
