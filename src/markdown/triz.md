@@ -1,6 +1,6 @@
 ---
 title: "TRIZ"
-path: "/test/triz"
+path: "/desc/triz"
 id: "triz"
 ---
 

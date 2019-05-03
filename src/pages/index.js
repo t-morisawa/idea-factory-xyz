@@ -10,7 +10,7 @@ export default () => {
       <div className={styles.row}>
         <div className={styles.colLg}></div>
         <div className={styles.colLg8}>
-          <Link to="/swot/">
+          <Link to="/desc/swot/">
           <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
             <div className={styles.p3}>自分に何ができるかを考える</div>
             <div className={styles.p3}>SWOT</div>
@@ -20,13 +20,13 @@ export default () => {
             <div className={styles.p3}>アイデアを出す</div>
             <div className={styles.p3}>ブレインストーミング</div>
           </div>
-          <Link to="/scamper/">
+      <Link to="/desc/scamper/">
             <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
               <div className={styles.p3}>作ったアイデアにひねりを加える</div>
               <div className={styles.p3}>SCAMPER</div>
             </div>
           </Link>
-          <Link to="/triz/">
+      <Link to="/desc/triz/">
             <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
               <div className={styles.p3}>5分で発明する</div>
               <div className={styles.p3}>TRIZ</div>

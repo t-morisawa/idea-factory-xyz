@@ -1,6 +1,6 @@
 ---
 title: "SCAMPER"
-path: "/test/scamper"
+path: "/desc/scamper"
 id: "scamper"
 ---
 

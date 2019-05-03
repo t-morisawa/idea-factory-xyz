@@ -1,6 +1,6 @@
 ---
 title: "SWOT"
-path: "/test/swot"
+path: "/desc/swot"
 id: "swot"
 ---
 
