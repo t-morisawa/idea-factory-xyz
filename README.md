@@ -44,6 +44,17 @@ gatsby build
 publicディレクトリをどこかにホスティングする
 
 
+# 新規追加手順
+
+前提: JSファイルがビルドされているものとする
+
+1. `/static/js/idea-raw/` にJSファイルのアップロード
+
+2. `/src/markdown` にmdファイルを作成し説明文を書く
+
+3. `/src/pages/idea` にページファイルを作成し読み込ませる
+
+3. `/src/pages/index.js` トップページからリンクする
 
 # Gatsbyで簡単な静的サイトを作るまでのメモ考える
 
