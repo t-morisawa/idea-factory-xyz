@@ -9,13 +9,13 @@ masterブランチにpushすれば自動で更新されます
  - DONE ホスティングする
  - DONE Gatsby.JSでフルリプレイス
  - DONE study bootstrap
- - descriptionsをmarkdownでかけるようにする
- - 項目自体を増やす
+ - DONE descriptionsをmarkdownでかけるようにする
  - 各項目のdescriptionsを書く(markdownで)
+ - study ReactJS
+ - 項目自体を増やす
  - 各アプリケーションのリプレイス
  - (PC)マウスのみで操作できるようにする
- - stydy GatsbyJS
- - study ReactJS
+ - study GatsbyJS
  - 広告展開を考える
  - 各ページの体裁を整える（リプレイス後の方がやりやすいと思うので後で）
  - CircleCI無料枠使って入れる
@@ -54,7 +54,7 @@ publicディレクトリをどこかにホスティングする
 
 3. `/src/pages/idea` にページファイルを作成し読み込ませる
 
-3. `/src/pages/index.js` トップページからリンクする
+4. `/src/pages/index.js` トップページからリンクする
 
 # Gatsbyで簡単な静的サイトを作るまでのメモ考える
 
