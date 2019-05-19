@@ -1,5 +1,5 @@
 # Netlify
-https://epic-mayer-262a99.netlify.com/
+https://idea-factory.xyz/
 
 # デプロイ
 masterブランチにpushすれば自動で更新されます
