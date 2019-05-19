@@ -5,7 +5,7 @@ export default () => {
   return (
     <div>
       <div id="root"></div>
-      <ScriptTag src="https://epic-mayer-262a99.netlify.com/js/idea-raw/scamper.js" id="external-script" />
+      <ScriptTag src="https://storage.googleapis.com/idea-factory-js/scamper.js" id="external-script" />
     </div>
    )
 }
