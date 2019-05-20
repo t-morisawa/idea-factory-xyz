@@ -5,7 +5,7 @@ import styles from '../scss/custom.module.scss';
 
 export default () => {
   return (
-    <div className={styles.container}>
+      <div className={`${styles.mt2} ${styles.container}`}>
       <h1>アイデアファクトリー</h1>
       <div className={styles.row}>
         <div className={styles.colLg}></div>

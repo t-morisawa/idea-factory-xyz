@@ -1,14 +1,13 @@
 import React from "react"
 import { Link } from "gatsby";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import styles from '../scss/custom.module.scss';
 
 
 export default (props) => {
   // 現状外部リンクになっているがそのうち統一して内部リンクにすること
   return (
-    <Link to={props.path}>
-      <FontAwesomeIcon icon={faArrowRight} />
+    <Link to={props.path} className={`${styles.btn} ${styles.btnPrimary} ${styles.mxAuto} ${styles.col2} ${styles.btnLg}`}>
+      進む
     </Link>
   )
 }
