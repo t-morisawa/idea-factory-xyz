@@ -10,7 +10,7 @@ masterブランチにpushすれば自動で更新されます
  - DONE Gatsby.JSでフルリプレイス
  - DONE study bootstrap
  - DONE descriptionsをmarkdownでかけるようにする
- - 各項目のdescriptionsを書く(markdownで)
+ - DONE 各項目のdescriptionsを書く(markdownで)
  - study ReactJS
  - 項目自体を増やす
  - 各アプリケーションのリプレイス
@@ -48,7 +48,7 @@ publicディレクトリをどこかにホスティングする
 
 前提: JSファイルがビルドされているものとする
 
-1. `/static/js/idea-raw/` にJSファイルのアップロード
+1. Cloud StorageにビルドされたJSファイルをアップロード
 
 2. `/src/markdown` にmdファイルを作成し説明文を書く
 
