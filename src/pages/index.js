@@ -16,10 +16,6 @@ export default () => {
             <div className={styles.p3}>SWOT</div>
           </div>
           </Link>
-          <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
-            <div className={styles.p3}>アイデアを出す</div>
-            <div className={styles.p3}>ブレインストーミング</div>
-          </div>
       <Link to="/desc/scamper/">
             <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
               <div className={styles.p3}>作ったアイデアにひねりを加える</div>
@@ -38,10 +34,14 @@ export default () => {
               <div className={styles.p3}>TRIZ</div>
             </div>
           </Link>
-          <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
+      {/* <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
+          <div className={styles.p3}>アイデアを出す</div>
+          <div className={styles.p3}>ブレインストーミング</div>
+          </div> */}
+    {/*   <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
             <div className={styles.p3}>作ったアイデアを普及させる</div>
             <div className={styles.p3}>AIDMA</div>
-          </div>
+            </div> */}
           <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
             <div className={styles.p3}>マーケティングにオススメの書籍</div>
             <div className={styles.p3}></div>
