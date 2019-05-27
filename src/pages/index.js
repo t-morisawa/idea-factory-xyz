@@ -25,7 +25,7 @@ export default () => {
       <Link to="/desc/blog/">
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
       <div className={styles.p3}>読まれるブログ記事を書く</div>
-      <div className={styles.p3}>BLOG（仮）</div>
+      <div className={styles.p3}>BLOG</div>
       </div>
       </Link>
       <Link to="/desc/triz/">
