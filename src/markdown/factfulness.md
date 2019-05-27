@@ -1,7 +1,7 @@
 ---
 title: "ファクトフルネス"
-path: "/desc/blog"
-id: "blog"
+path: "/desc/factfulness"
+id: "factfulness"
 ---
 
 # FACTFULNESS(ファクトフルネス)　
