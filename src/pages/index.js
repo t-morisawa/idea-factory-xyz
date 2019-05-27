@@ -16,6 +16,12 @@ export default () => {
             <div className={styles.p3}>SWOT</div>
           </div>
           </Link>
+      <Link to="/desc/factfulness/">
+      <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
+      <div className={styles.p3}>データのカラクリを見抜く</div>
+      <div className={styles.p3}>ファクトフルネス</div>
+      </div>
+      </Link>
       <Link to="/desc/scamper/">
             <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
               <div className={styles.p3}>作ったアイデアにひねりを加える</div>
