@@ -35,5 +35,5 @@ id: "blog"
 ブレインストーミングをしましょう。
 
 ## 参考文献
- - [沈黙のWebライティング](https://amzn.to/30QXuRe) Webライティングに関する入門書です。
- - [沈黙のWebマーケティング](https://amzn.to/2I7BKrF) Webマーケティングに関する入門書です。
+ - [沈黙のWebライティング](https://amzn.to/30QXuRe) ... Webライティングに関する入門書です。
+ - [沈黙のWebマーケティング](https://amzn.to/2I7BKrF) ... Webマーケティングに関する入門書です。
