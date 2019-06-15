@@ -10,7 +10,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   const path = `/idea/${frontmatter.id}/`;
   return (
-      <Container to={path}>
+      <Container to={path} title={frontmatter.title}>
       <div
     className="description"
     dangerouslySetInnerHTML={{ __html: html }}
