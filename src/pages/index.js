@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
 import styles from '../scss/custom.module.scss';
+import { Helmet } from "react-helmet";
 
 
 export default () => {
   return (
       <div className={`${styles.mt2} ${styles.container}`}>
+      <Helmet>
+      <meta charSet="utf-8" />
+      <title>アイデアファクトリー</title>
+      </Helmet>
       <h1>アイデアファクトリー</h1>
       <div className={styles.row}>
         <div className={styles.colLg}></div>
