@@ -59,8 +59,10 @@ export default () => {
             <div className={styles.p3}>作ったアイデアを普及させる</div>
             <div className={styles.p3}>AIDMA</div>
             </div> */}
-          <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
-            <div className={styles.p3}>マーケティングにオススメの書籍</div>
+      <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
+      <Link to="/books">
+      <div className={styles.p3}>最低限読んでおくべきオススメの書籍</div>
+      </Link>
             <div className={styles.p3}></div>
           </div>
         </div>
