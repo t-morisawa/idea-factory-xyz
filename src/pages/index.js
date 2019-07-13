@@ -2,21 +2,27 @@ import React from "react";
 import { Link } from "gatsby";
 import styles from '../scss/custom.module.scss';
 import { Helmet } from "react-helmet";
+import stylesOrg from '../styles/index.module.css';
 
 
 export default () => {
   return (
-      <div className={`${styles.mt2} ${styles.container}`}>
+    <div>
       <Helmet>
       <meta charSet="utf-8" />
       <title>アイデアファクトリー</title>
       </Helmet>
-      <h1>アイデアファクトリー</h1>
+
+      <header className={stylesOrg.header}>
+      Idea Factory XYZ
+    </header>
+
+      <div className={`${styles.mt2} ${styles.container}`}>
       <div className={styles.row}>
         <div className={styles.colLg}></div>
         <div className={styles.colLg8}>
 
-      <h2>文章を書く</h2>
+      <h2 className={stylesOrg.headline}>文章を書く</h2>
 
       <Link to="/desc/saleswriting/">
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
@@ -32,7 +38,7 @@ export default () => {
       </div>
       </Link>
 
-      <h2>自己分析する</h2>
+      <h2 className={stylesOrg.headline}>自己分析する</h2>
 
       <Link to="/desc/swot/">
           <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
@@ -41,7 +47,7 @@ export default () => {
           </div>
           </Link>
 
-      <h2>ベストセラーで学ぶ</h2>
+      <h2 className={stylesOrg.headline}>ベストセラーで学ぶ</h2>
 
       <Link to="/desc/factfulness/">
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
@@ -50,7 +56,7 @@ export default () => {
       </div>
       </Link>
 
-      <h2>アイデアを生み出す</h2>
+      <h2 className={stylesOrg.headline}>アイデアを生み出す</h2>
 
       <Link to="/desc/scamper/">
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
@@ -72,7 +78,7 @@ export default () => {
             <div className={styles.p3}>作ったアイデアを普及させる</div>
             <div className={styles.p3}>AIDMA</div>
             </div> */}
-      <h2>勉強する</h2>
+      <h2 className={stylesOrg.headline}>勉強する</h2>
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
       <Link to="/books">
       <div className={styles.p3}>最低限読んでおくべきオススメの書籍</div>
@@ -82,6 +88,7 @@ export default () => {
         </div>
         <div className={styles.colLg}></div>
       </div>
-    </div>
+      </div>
+      </div>
   )
 }
