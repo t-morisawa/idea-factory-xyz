@@ -1,0 +1,263 @@
+scamper-en:
+  title: SCAMPER
+  description: |
+    SCAMPER is a method for improving new ideas.
+    It helps to generate new ideas for products and services, by looking at them from seven points of view.
+
+    Let's imagine one existing idea and let us fill in the form for improvement.
+  body:
+    - title: Substitute
+      description: Replace a part of the product or service with something else
+    - title: Combine
+      description: Combine with something else to create synergies and new value
+    - title: Adapt
+      description: Apply it to another product / service / market (utilizing the goodness of existing one)
+    - title: Modify
+      description: Modify parts of goods / services
+    - title: Put to other uses
+      description: Put to other completely different uses and objectives
+    - title: Eliminate
+      description: Delete part of products or services
+    - title: Rearrage
+      description: Rearrange parts or reverse them
+
+scamper:
+  title: SCAMPER
+  description: |
+    SCAMPERは新しいアイデアを出すための手法の一種です。
+    既存の製品やサービスを7つの観点から見て考えることによって、
+    新しい製品やサービスのアイデアを生成するのに役立ちます。
+
+    既存のアイデアを一つ思い浮かべて、それに対する改善案をフォームに入力していきましょう。
+  body:
+    - title: Substitute 置き換え
+      description: 商品やサービスの一部分を別の何かに置き換える
+    - title: Combine 結合
+      description: 他の何かと組み合わせて相乗効果や新しい価値を生み出す
+    - title: Adapt 適応
+      description: （既存のものの良さを活かし）別の商品・サービス・市場に応用してみる
+    - title: Modify 修正
+      description: 商品・サービスの一部分に修正を加える
+    - title: Put to other uses 転用
+      description: 商品やサービスを今までとは全く違った用途や目的で売り出してみる
+    - title: Eliminate 削除
+      description: 商品やサービスの一部分を削除する
+    - title: Rearrage 逆転/並べ替え
+      description: パーツなどを並び替えたり逆にしてみる
+
+swot:
+  title: SWOT
+  description: |
+    SWOTは意思決定のための手法です。
+    内部・外部要因のプラス・マイナス要因を分析し、目標が達成可能かを判断します。
+
+    目標を一つ思い浮かべて、それに対する現状分析をフォームに入力していきましょう。
+  body:
+    - title: Strength 強み
+      description: "[内部][プラス]どのような強みがあるか？/どのように強みを活かすか？"
+    - title: Weakness 弱み
+      description: "[内部][マイナス]どのような弱みがあるか？/どのように弱みを克服するか？"
+    - title: Opportunities 機会
+      description: "[外部][プラス]どのようなチャンスがあるか？/どのように機会を利用するか？"
+    - title: Threats 脅威
+      description: "[外部][マイナス]どのような脅威があるか？/どのように脅威を取り除くか？"
+
+triz:
+  title: TRIZ
+  description: |
+    TRIZは課題解決の手法の一種です。
+    課題を40アプローチから見て考えることによって、
+    課題を解決するためのアイデアを生成するのに役立ちます。
+
+    既存のアイデアを一つ思い浮かべて、それに対する改善案をフォームに入力していきましょう。
+  body:
+    - title: 分割原理
+      description: 分子レベルまで分割を考えてみる
+    - title: 分離原理
+      description: 不要なモノを除外したり別の場所に移動してみる
+    - title: 局所性質原理
+      description: 一部の機能・形・材質を変えてみる
+    - title: 非対称原理
+      description: 非対称にする利点を考えてみる
+    - title: 組み合わせ原理
+      description: 2つ以上を結合・組み合わせてみる
+    - title: 汎用性原理
+      description: 多機能にしたり転用できないか考えてみる
+    - title: 入れ子原理
+      description: 入れ子・階層化にしてみる
+    - title: つりあい原理
+      description: 他のモノと調整してバランスを良くしてみる
+    - title: 先取り反作用原理
+      description: 問題が起こる前にあらかじめ対処する方法を探ってみる
+    - title: 先取り作用原理
+      description: 予約タイマーなど事前に待機させる機能をつけてみる
+    - title: 事前保護原理
+      description: エアバッグなど最悪の場合の準備を考えてみる
+    - title: 等ポテンシャル原理
+      description: 負荷を等しく分配してみる
+    - title: 逆発想原理
+      description: 従来とは逆にしてみる
+    - title: 曲面原理
+      description: 立体にしたり回転させてみる
+    - title: ダイナミック性原理
+      description: 最適な環境にして動かしやすくする
+    - title: アバウト原理
+      description: 完璧主義を捨ててみる
+    - title: 他次元移行原理
+      description: 点や直線を二次元・三次元にしてみる
+    - title: 機械的振動原理
+      description: 振動させて他のモノと共鳴させてみる
+    - title: 周期的作用原理
+      description: 一定の動きやリズムを与えてみる
+    - title: 連続性原理
+      description: 同じ動作やプロセスを繰り返してみる
+    - title: 高速実行原理
+      description: 高速で動かしてみる
+    - title: “災い転じて福となす”の原理
+      description: マイナス面を利用してプラスにできないかを考えてみる
+    - title: フィードバック原理
+      description: 結果を見直す機能をつけてみる
+    - title: 仲介原理
+      description: 直接ではなく仲介させて操作してみる
+    - title: セルフサービス原理
+      description: 自動的に動くようにしてみる
+    - title: 代替原理
+      description: コピーしたり代用してみる
+    - title: “高価な長寿命より安価な短寿命”の原理
+      description: 使い捨てできないかを考えてみる
+    - title: 機械的システム代替原理
+      description: 従来のシステムを新しい技術に変えてみる
+    - title: 流体利用原理
+      description: 柔らかいモノに変えてみる
+    - title: 薄膜利用原理
+      description: 薄いモノに変えてみる
+    - title: 多孔質利用原理
+      description: スキマを利用してみる
+    - title: 変色利用原理
+      description: 色や透明度を変えてみる
+    - title: 均質性原理
+      description: 他のモノと性質を合わせて規格化してみる
+    - title: 排除／再生原理
+      description: 自動で排除したり再構築できないかを考えてみる
+    - title: パラメータ原理
+      description: 物質・濃度・柔軟性・温度・圧力など性質の条件を変更してみる
+    - title: 相変化原理
+      description: 形や性質を変えてみる
+    - title: 熱膨張原理
+      description: 熱を利用して膨張させてみる
+    - title: 高濃度酸素利用原理
+      description: 酸素濃度を上げてみる
+    - title: 不活性雰囲気利用原理
+      description: 酸化防止や真空にしてみる
+    - title: 複合材料原理
+      description: 材料同士を結合・混ぜてみる
+
+blog:
+  title: ブログ記事を書く前に答える質問集
+  description: |
+    読まれる文章を書くために、抑えておくべきポイントがあります。
+    この後の質問に答えて、「何を書くか」「どう書くか」をくっきりさせましょう。
+  body:
+    - title: その記事の一番面白いところは何か
+      description: 記事を読んだ人が何を得られるのかを考えましょう
+    - title: 記事は誰に向けて書いているか
+      description: ターゲットをはっきりさせましょう
+    - title: 敵は誰か
+      description: 共通の敵がいるとき人は最も結束します
+    - title: 一つ目の争点は何か
+      description: 記事の主張に対する反論と、それに対する反論を考えましょう
+    - title: ニつ目の争点は何か
+      description: もう一つ考えましょう
+    - title: 援助者は誰か
+      description: 逆に、味方は誰でしょうか？
+    - title: 自分の欠点は何か
+      description: 弱みを見せましょう
+    - title: それを逆に生かせないか
+      description: 弱さは逆手に取りましょう
+    - title: 面白い部分を別のもので例えると何か
+      description: 別の角度で見てみましょう
+    - title: それにまつわる昔話・体験談は何か
+      description: 具体例を語ってみましょう
+    - title: それをあなたが書く意味は何か
+      description: 差別化要素になります
+    - title: 読者に問いかけできるか
+      description: 読者が書いたことを元に議論できるようにしましょう
+    - title: あるあるネタは言えないか
+      description: くだらないものでもいいのです
+    - title: 数字で言ってみる
+      description: ナンバーワンとか、一億個とかそういうの
+    - title: 偉人や権威は同じことを言っていないか
+      description: 歴史は繰り返します
+    - title: 子供に主張してみる
+      description: 退屈になっていませんか？
+    - title: おばあちゃんに主張してみる
+      description: 難しくなってませんか？
+    - title: キャッチコピーをつけてみる
+      description: 13文字以内で説明しましょう
+    - title: その記事の一番面白いところは何か
+      description: 最後にもう一度面白いところを確認しましょう
+
+factfulness:
+  title: FACTFULNESS
+  description: |
+    人間が勘違いをするとき、しばしば思い込みが背景にあります。
+    次に挙げる「10の思い込み」に対して取り組んでいる課題に関する思い込みを記入することで、思い込みを乗り越えて、データを正しくみることができるようになるでしょう。
+
+    「FACTFULNESS(ファクトフルネス)　 10の思い込みを乗り越え、データを基に世界を正しく見る習慣」は2019年のベストセラー書籍です。    
+  body:
+    - title: 分断本能
+      description: 「世界は分断されている」という思い込み
+    - title: ネガティブ本能
+      description: 「世界がどんどん悪くなっている」という思い込み
+    - title: 直線本能
+      description: 「世界の人口はひたすら増える」という思い込み
+    - title: 恐怖本能
+      description: 「実は危険でないことを恐ろしい」と考えてしまう思い込み
+    - title: 過大視本能
+      description: 「目の前の数字がいちばん重要」という思い込み
+    - title: パターン化本能
+      description: 「ひとつの例にすべてがあてはまる」という思い込み
+    - title: 宿命本能
+      description: 「すべてはあらかじめ決まっている」という思い込み
+    - title: 単純化本能
+      description: 「世界はひとつの切り口で理解できる」という思い込み
+    - title: 犯人捜し本能
+      description: 「だれかを責めれば物事は解決する」という思い込み
+    - title: 焦り本能
+      description: 「いますぐ手を打たないと大変なことになる」という思い込み
+
+saleswriting:
+  title: セールスコピーライティング
+  description: |
+    営業の流れを説明する「PASONAの法則」と言うものがあります。
+
+    このアプリでは、PASONAの法則に基づいて、商品のセールスライティングをフォーマット化しました。
+    項目に一つずつ記入していくと、そのままセールスに使うコピーが出来上がります。
+
+  body:
+    - title: キャッチコピー
+      description: 顧客が最初に目にし、続きを読むかどうかを判断させるキャッチコピーを考えましょう。
+    - title: リードコピー
+      description: 「本文に入る前に、更に読んでもらうためのコピー」を考えましょう。本文を要約したものや、キャッチコピーの補足的な内容が書かれることが多いようです。
+    - title: 興味を引くエピソード、トピックス、ストーリー
+      description: 商品に関連した具体的なエピソード、ニュースなどを取り上げましょう。
+    - title: 自己紹介
+      description: この辺りで信用を得るための自己紹介をしましょう。また、感情移入できるようにしてみるのも良いです。
+    - title: エピソードから問題点を浮き彫りにする
+      description: PASONAの法則のP(Problem)に当たります。問題点を明確にしましょう。
+    - title: 問題点を煽り立てる（強調する　or　詳しく説明する）
+      description: PASONAの法則のA(Agitation)に当たります。気持ちが盛り上がり、もっと具体的な話を聞きたいという気持ちを持ってもらうようにします。
+    - title: 解決策として「あなたの商品」を提示する
+      description: PASONAの法則のSO(Solution)に当たります。ここまで引っ張った上で、商品を紹介します。
+    - title: ベネフィットを伝える
+      description: 製品の利点を端的に伝えましょう。複数上げても構いません。このとき、特徴を説明するだけにならないように注意してください。
+    - title: 根拠を示す
+      description: 裏付けになりそうなデータ、あるいは「お客様の声」などを書きます。
+    - title: 商品スペック
+      description: ここで価格などを説明します。
+    - title: 緊急性・限定性・特典
+      description: PASONAの法則のN(Narrow Down)に当たります。期間や条件を限定します。
+    - title: 購入を呼びかける
+      description: PASONAの法則のA(Action)に当たります。、読者に最終的に、具体的に何をしてもらうか？を呼びかけます。
+    - title: 追伸
+      description: 最後に、伝えたいメッセージや特典、特に押しだしたい商品の利点などを、再び追伸に入れます。
