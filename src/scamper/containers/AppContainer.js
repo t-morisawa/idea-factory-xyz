@@ -6,6 +6,7 @@ import ResultView from '../presentationals/ResultView'
 import LoaderExampleText from '../presentationals/LoadSampleText';
 import { start, toggleResult } from '../actions'
 import data from '../constants'
+import 'semantic-ui-css/semantic.min.css';
 
 
 //const description = data[IDEA_TYPE];
