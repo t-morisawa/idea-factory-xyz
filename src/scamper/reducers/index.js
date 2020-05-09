@@ -3,6 +3,7 @@
  * ideas: 保存されたテキスト
  */
 import { combineReducers } from 'redux'
+import { createStore as reduxCreateStore } from "redux"
 
 const home = (state = { isStart : false }, action) => {
   switch (action.type) {
@@ -33,7 +34,8 @@ const main = (state = initialData, action) => {
     }
   case 'INPUT_TEXT':
     return {
-      ...state,
+      index: state.index,
+      ideas: state.ideas,
       text: action.text
     }
   default:
@@ -58,4 +60,6 @@ const scamperApp = combineReducers({
   result,
 })
 
-export default scamperApp
+const createStore = () => reduxCreateStore(scamperApp)
+
+export default createStore

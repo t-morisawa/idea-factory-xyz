@@ -21,6 +21,7 @@ export default (props) => {
       <div className={`${styles.fixedBottom} ${styles.dFlex} ${styles.justifyContentAround} ${styles.my5}`}>
       <ArrowBack path="/" />
       <ArrowForward path={props.to} />
+      <ArrowForward path="./idea/test/" />
       </div>
       </div>
       </div>
