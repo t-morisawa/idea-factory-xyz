@@ -6,7 +6,7 @@ import AppContainer from "../../scamper/containers/AppContainer";
 export default () => {
   return (
       <div>
-      <AppContainer />
+      <AppContainer appType="scamper" />
       </div>
   )
 }

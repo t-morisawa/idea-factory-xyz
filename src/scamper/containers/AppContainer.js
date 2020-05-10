@@ -9,11 +9,9 @@ import data from '../constants'
 import 'semantic-ui-css/semantic.min.css';
 
 
-//const description = data[IDEA_TYPE];
-const description = data.scamper;
+let AppContainer = ({ isStart, indexMain, ideas, indexResult, onStartButtonClick, onToggleResultButtonClick, appType }) => {
 
-
-let AppContainer = ({ isStart, indexMain, ideas, indexResult, onStartButtonClick, onToggleResultButtonClick }) => {
+  let description = data[appType];
 
   if ( isStart === false ) {
     return(
