@@ -14,7 +14,7 @@ class AppContainer extends React.Component {
     super(props)
   }
 
-  componentDidMount() {
+  componentWillUnmount() {
     this.props.initiate();
   }
 
