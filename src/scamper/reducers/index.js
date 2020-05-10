@@ -25,7 +25,7 @@ const initialData = {
 const main = (state = initialData, action) => {
   switch (action.type) {
   case 'SUBMIT':
-    let log = state.ideas
+    let log = state.ideas.concat()
     log.push({
       index: state.index,
       ideas: action.text
@@ -54,9 +54,7 @@ const result = (state = { index: 0 }, action ) => {
       index: state.index + 1,
     }
   case 'INITIATE':
-    return {
-      index: 0
-    };
+    return { index: 0 };
   default:
     return state
   }
