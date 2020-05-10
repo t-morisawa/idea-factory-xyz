@@ -7,9 +7,9 @@ export default () => {
       <div>
       <Helmet>
       <meta charSet="utf-8" />
-      <title>セールスコピーライティング - アイデアファクトリー</title>
+      <title>test - アイデアファクトリー</title>
       </Helmet>
-      <AppContainer appType="saleswriting" />
+      <AppContainer appType="scamper" />
       </div>
   )
 }
