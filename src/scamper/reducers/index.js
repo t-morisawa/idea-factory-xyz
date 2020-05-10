@@ -8,7 +8,9 @@ import { createStore as reduxCreateStore } from "redux"
 const home = (state = { isStart : false }, action) => {
   switch (action.type) {
   case 'START':
-    return true;
+    return { isStart : true };
+  case 'INITIATE':
+    return { isStart : false };
   default:
     return state;
   }
@@ -34,10 +36,11 @@ const main = (state = initialData, action) => {
     }
   case 'INPUT_TEXT':
     return {
-      index: state.index,
-      ideas: state.ideas,
+      ...state,
       text: action.text
     }
+  case 'INITIATE':
+    return initialData;
   default:
     return state
   }
@@ -49,6 +52,10 @@ const result = (state = { index: 0 }, action ) => {
     return {
       index: state.index + 1,
     }
+  case 'INITIATE':
+    return {
+      index: 0
+    };
   default:
     return state
   }

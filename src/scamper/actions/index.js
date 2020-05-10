@@ -15,3 +15,7 @@ export const inputText = (text) => ({
   type: 'INPUT_TEXT',
   text
 })
+
+export const initiate = () => ({
+  type: 'INITIATE'
+})
