@@ -19,6 +19,7 @@ const home = (state = { isStart : false }, action) => {
 const initialData = {
   index: 0,
   ideas: [],
+  text: '',
 }
 
 const main = (state = initialData, action) => {
@@ -67,6 +68,9 @@ const scamperApp = combineReducers({
   result,
 })
 
-const createStore = () => reduxCreateStore(scamperApp)
+const createStore = () => reduxCreateStore(
+  scamperApp,
+  // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()  // 開発用サーバでのみ使用可能
+)
 
 export default createStore
