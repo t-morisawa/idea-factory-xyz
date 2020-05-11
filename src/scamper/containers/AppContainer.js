@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import Opening from '../presentationals/Opening'
 import Interaction from '../presentationals/Interaction'
 import ResultView from '../presentationals/ResultView'
-import LoaderExampleText from '../presentationals/LoadSampleText';
 import { start, toggleResult, initiate } from '../actions'
 import data from '../constants'
 import 'semantic-ui-css/semantic.min.css';

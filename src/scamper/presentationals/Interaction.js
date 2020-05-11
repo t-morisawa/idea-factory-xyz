@@ -2,7 +2,7 @@ import React from 'react'
 import Theme from '../presentationals/Theme'
 import Question from '../presentationals/Question'
 import ReduxForm from '../containers/ReduxForm.js'
-import { Container, Header } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 let Interaction = ({ theme, question }) => {
     return (

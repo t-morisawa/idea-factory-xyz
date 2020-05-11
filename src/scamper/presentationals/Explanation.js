@@ -1,6 +1,4 @@
 import React from 'react'
-import { Container } from 'semantic-ui-react'
-import { List } from 'semantic-ui-react'
 
 const Explanation = ({ description }) => {
   return (
