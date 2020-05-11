@@ -16,29 +16,29 @@ export default () => {
       <div className={styles.colLg8}>
       <h2>マーケティング編</h2>
       <ul>
-      <li><a href="https://amzn.to/2xf4XvL" target="_blank" ref="noopener noreferrer">コトラーのマーケティング・コンセプト</a></li>
-      <li><a href="https://amzn.to/2IYNqxp" target="_blank" ref="noopener noreferrer">データ・ドリブン・マーケティング</a></li>
+      <li><a href="https://amzn.to/2xf4XvL" target="_blank" rel="noopener noreferrer">コトラーのマーケティング・コンセプト</a></li>
+      <li><a href="https://amzn.to/2IYNqxp" target="_blank" rel="noopener noreferrer">データ・ドリブン・マーケティング</a></li>
       </ul>
       <h2>物語作り編</h2>
       <ul>
-      <li><a href="https://amzn.to/2ITvW5u" target="_blank" ref="noopener noreferrer">神話の法則</a></li>
-      <li><a href="https://amzn.to/2x5uCXY" target="_blank" ref="noopener noreferrer">キャラクターメーカー</a></li>
+      <li><a href="https://amzn.to/2ITvW5u" target="_blank" rel="noopener noreferrer">神話の法則</a></li>
+      <li><a href="https://amzn.to/2x5uCXY" target="_blank" rel="noopener noreferrer">キャラクターメーカー</a></li>
       </ul>
       <h2>組織・マネジメント編</h2>
       <ul>
-      <li><a href="https://amzn.to/2J2poS9" target="_blank" ref="noopener noreferrer">マネジメント[エッセンシャル版] - 基本と原則</a></li>
-      <li><a href="https://amzn.to/2IA6XFK" target="_blank" ref="noopener noreferrer">ピクサー流 創造するちから</a></li>
+      <li><a href="https://amzn.to/2J2poS9" target="_blank" rel="noopener noreferrer">マネジメント[エッセンシャル版] - 基本と原則</a></li>
+      <li><a href="https://amzn.to/2IA6XFK" target="_blank" rel="noopener noreferrer">ピクサー流 創造するちから</a></li>
       </ul>
       <h2>採用・人事編</h2>
       <ul>
-      <li><a href="https://amzn.to/2ZNy2uT" target="_blank" ref="noopener noreferrer">採用基準</a></li>
-      <li><a href="https://amzn.to/2ZIhBQl" target="_blank" ref="noopener noreferrer">NETFLIXの最強人事戦略</a></li>
-      <li><a href="https://amzn.to/2ZHKDPR" target="_blank" ref="noopener noreferrer">ビジョナリー・カンパニー2 飛躍の法則</a></li>
+      <li><a href="https://amzn.to/2ZNy2uT" target="_blank" rel="noopener noreferrer">採用基準</a></li>
+      <li><a href="https://amzn.to/2ZIhBQl" target="_blank" rel="noopener noreferrer">NETFLIXの最強人事戦略</a></li>
+      <li><a href="https://amzn.to/2ZHKDPR" target="_blank" rel="noopener noreferrer">ビジョナリー・カンパニー2 飛躍の法則</a></li>
       </ul>
       <h2>起業編</h2>
       <ul>
-      <li><a href="https://amzn.to/2ZBXp2s" target="_blank" ref="noopener noreferrer">リーン・スタートアップ</a></li>
-      <li><a href="https://amzn.to/2IxEoIG" target="_blank" ref="noopener noreferrer">起業の科学</a></li>
+      <li><a href="https://amzn.to/2ZBXp2s" target="_blank" rel="noopener noreferrer">リーン・スタートアップ</a></li>
+      <li><a href="https://amzn.to/2IxEoIG" target="_blank" rel="noopener noreferrer">起業の科学</a></li>
       </ul>
       </div>
       <div className={styles.colLg}></div>
