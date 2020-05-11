@@ -9,10 +9,6 @@ import 'semantic-ui-css/semantic.min.css';
 
 
 class AppContainer extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
   componentWillUnmount() {
     this.props.initiate();
   }
