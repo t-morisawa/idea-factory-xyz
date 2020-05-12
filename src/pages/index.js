@@ -81,7 +81,7 @@ export default () => {
       <h2 className={stylesOrg.headline}>勉強する</h2>
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
       <Link to="/books">
-      <div className={styles.p3}>最低限読んでおくべきオススメの書籍</div>
+      <div className={styles.p3}>本サイトで紹介している書籍、ほか</div>
       </Link>
             <div className={styles.p3}></div>
           </div>

@@ -8,7 +8,7 @@ export default () => {
       <div className={`${styles.mt2} ${styles.container}`}>
       <Helmet>
       <meta charSet="utf-8" />
-      <title>最低限読んでおくべきオススメの書籍 - アイデアファクトリー</title>
+      <title>本サイトで紹介している書籍、ほか - アイデアファクトリー</title>
       </Helmet>
       <h1>最低限読んでおくべきオススメの書籍</h1>
       <div className={styles.row}>
