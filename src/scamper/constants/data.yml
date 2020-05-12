@@ -261,3 +261,35 @@ saleswriting:
       description: PASONAの法則のA(Action)に当たります。、読者に最終的に、具体的に何をしてもらうか？を呼びかけます。
     - title: 追伸
       description: 最後に、伝えたいメッセージや特典、特に押しだしたい商品の利点などを、再び追伸に入れます。
+
+inceptiondeck:
+  title: インセプションデッキ
+
+  description: |
+    インセプションデッキとは、プロジェクトの全体像を明確にして、端的に伝える資料になるものです。
+    目的、背景、優先順位、方向性等を人に説明するのに役立ちます。
+
+    インセプションデッキは10個の質問と答えから構成されます。
+    10個の質問が表示されるので、フォームに回答を記入していきましょう。
+
+  body:
+    - title: 我われはなぜここにいるのか
+    - description: Why1
+    - title: エレベーターピッチを作る
+    - description: Why2
+    - title: パッケージデザインを作る
+    - description: Why3
+    - title: やらないことリストを作る
+    - description: Why4
+    - title: 「ご近所さん」を探せ
+    - description: Why5
+    - title: 解決案を描く
+    - description: How1
+    - title: 夜も眠れなくなるような問題は何だろう
+    - description: How2
+    - title: 期間を見極める
+    - description: How3
+    - title: 何を諦めるのかをはっきりさせる
+    - description: How4
+    - title: 何がどれだけ必要なのか
+    - description: How5
