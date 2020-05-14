@@ -10,7 +10,7 @@ export default () => {
       <meta charSet="utf-8" />
       <title>本サイトで紹介している書籍、ほか - アイデアファクトリー</title>
       </Helmet>
-      <h1>最低限読んでおくべきオススメの書籍</h1>
+      <h1>本サイトで紹介している書籍、ほか - アイデアファクトリー</h1>
       <div className={styles.row}>
       <div className={styles.colLg}></div>
       <div className={styles.colLg8}>
@@ -28,6 +28,7 @@ export default () => {
       <ul>
       <li><a href="https://amzn.to/2J2poS9" target="_blank" rel="noopener noreferrer">マネジメント[エッセンシャル版] - 基本と原則</a></li>
       <li><a href="https://amzn.to/2IA6XFK" target="_blank" rel="noopener noreferrer">ピクサー流 創造するちから</a></li>
+      <li><a href="https://amzn.to/2zymTWW" target="_blank" rel="noopener noreferrer">アジャイルサムライ 達人開発者への道</a></li>
       </ul>
       <h2>採用・人事編</h2>
       <ul>

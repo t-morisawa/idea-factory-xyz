@@ -37,6 +37,15 @@ export default () => {
       </div>
       </Link>
 
+      <h2 className={stylesOrg.headline}>プロジェクトを成功に導く</h2>
+
+      <Link to="/desc/inceptiondeck/">
+      <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
+      <div className={styles.p3}>プロジェクトのを定義する</div>
+      <div className={styles.p3}>インセプションデッキ</div>
+      </div>
+      </Link>
+
       <h2 className={stylesOrg.headline}>自己分析する</h2>
 
       <Link to="/desc/swot/">
