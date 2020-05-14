@@ -274,22 +274,22 @@ inceptiondeck:
 
   body:
     - title: 我われはなぜここにいるのか
-    - description: Why1
+      description: プロジェクトの根幹に関わる理由
     - title: エレベーターピッチを作る
-    - description: Why2
+      description: 「xxxしたいxxx向けのxxxというプロダクトです。これはxxxができ、xxxとは違って、xxxが備わっています」
     - title: パッケージデザインを作る
-    - description: Why3
+      description: キャッチコピー、ユーザへのアピールなど
     - title: やらないことリストを作る
-    - description: Why4
+      description: 「やる」「やらない」「後で決める」
     - title: 「ご近所さん」を探せ
-    - description: Why5
+      description: 関係者の一覧
     - title: 解決案を描く
-    - description: How1
+      description: 採用する技術など
     - title: 夜も眠れなくなるような問題は何だろう
-    - description: How2
+      description: もし起きたら怖いこと
     - title: 期間を見極める
-    - description: How3
+      description: リリースまでの期間
     - title: 何を諦めるのかをはっきりさせる
-    - description: How4
+      description: やることに優先度をつける
     - title: 何がどれだけ必要なのか
-    - description: How5
+      description: 人、期間、お金
