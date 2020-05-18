@@ -41,7 +41,7 @@ export default () => {
 
       <Link to="/desc/inceptiondeck/">
       <div className={`${styles.dFlex} ${styles.flexRow} ${styles.justifyContentBetween}`}>
-      <div className={styles.p3}>プロジェクトのを定義する</div>
+      <div className={styles.p3}>プロジェクトを定義する</div>
       <div className={styles.p3}>インセプションデッキ</div>
       </div>
       </Link>
