@@ -2,6 +2,7 @@ import React from "react";
 import styles from '../scss/custom.module.scss';
 import { Helmet } from "react-helmet";
 import Header from '../components/Header';
+import ArrowBack from "../components/arrow_left";
 
 
 export default () => {
@@ -46,6 +47,9 @@ export default () => {
       </ul>
       </div>
       <div className={styles.colLg}></div>
+      <div className={`${styles.fixedBottom} ${styles.dFlex} ${styles.justifyContentAround} ${styles.my5}`}>
+      <ArrowBack path="/" />
+      </div>
       </div>
       </div>
       </div>
