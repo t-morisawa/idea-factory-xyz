@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styles from '../scss/custom.module.scss';
 import { Helmet } from "react-helmet";
 import stylesOrg from '../styles/index.module.css';
-
+import Header from '../components/Header';
 
 export default () => {
   return (
@@ -13,11 +13,9 @@ export default () => {
       <title>アイデアファクトリー</title>
       </Helmet>
 
-      <header className={stylesOrg.header}>
-      Idea Factory XYZ
-    </header>
+      <Header />
 
-      <div className={`${styles.mt2} ${styles.container}`}>
+      <div className={`${styles.mt4} ${styles.container}`}>
       <div className={styles.row}>
         <div className={styles.colLg}></div>
         <div className={styles.colLg8}>

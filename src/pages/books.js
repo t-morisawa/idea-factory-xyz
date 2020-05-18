@@ -1,19 +1,23 @@
 import React from "react";
 import styles from '../scss/custom.module.scss';
 import { Helmet } from "react-helmet";
+import Header from '../components/Header';
+import ArrowBack from "../components/arrow_left";
 
 
 export default () => {
   return (
-      <div className={`${styles.mt2} ${styles.container}`}>
+    <div>
       <Helmet>
       <meta charSet="utf-8" />
       <title>本サイトで紹介している書籍、ほか - アイデアファクトリー</title>
       </Helmet>
-      <h1>本サイトで紹介している書籍、ほか - アイデアファクトリー</h1>
+      <Header />
+      <div className={`${styles.mt4} ${styles.container}`}>
       <div className={styles.row}>
       <div className={styles.colLg}></div>
       <div className={styles.colLg8}>
+      <h1>本サイトで紹介している書籍、ほか</h1>
       <h2>マーケティング編</h2>
       <ul>
       <li><a href="https://amzn.to/2xf4XvL" target="_blank" rel="noopener noreferrer">コトラーのマーケティング・コンセプト</a></li>
@@ -43,6 +47,10 @@ export default () => {
       </ul>
       </div>
       <div className={styles.colLg}></div>
+      <div className={`${styles.fixedBottom} ${styles.dFlex} ${styles.justifyContentAround} ${styles.my5}`}>
+      <ArrowBack path="/" />
+      </div>
+      </div>
       </div>
       </div>
   )

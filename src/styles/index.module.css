@@ -4,6 +4,10 @@
   padding: 10px 0 10px 18px;
 }
 
+.header a {
+  color: white;
+}
+
 .headline {
   font-family: initial;
   font-weight: bolder;
