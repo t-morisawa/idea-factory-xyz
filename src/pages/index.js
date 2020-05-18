@@ -17,7 +17,7 @@ export default () => {
       <Link to="/">Idea Factory XYZ</Link>
       </header>
 
-      <div className={`${styles.mt2} ${styles.container}`}>
+      <div className={`${styles.mt4} ${styles.container}`}>
       <div className={styles.row}>
         <div className={styles.colLg}></div>
         <div className={styles.colLg8}>
