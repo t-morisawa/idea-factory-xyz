@@ -14,8 +14,8 @@ export default () => {
       </Helmet>
 
       <header className={stylesOrg.header}>
-      Idea Factory XYZ
-    </header>
+      <Link to="/">Idea Factory XYZ</Link>
+      </header>
 
       <div className={`${styles.mt2} ${styles.container}`}>
       <div className={styles.row}>
